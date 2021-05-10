@@ -1,3 +1,5 @@
+import { CoffeeRequirements } from "./CoffeeRequirements";
+
 export declare interface Guide {
   createdAt: string, // firestore timestamp
   lastModified: string, // firestore timestamp
@@ -8,5 +10,5 @@ export declare interface Guide {
   title: string,
   steps: any[],
   introduction: any,
-  coffee: any,
+  coffee: CoffeeRequirements,
 }
