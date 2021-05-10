@@ -1,3 +1,5 @@
 # types
 
-Type declerations related to the Bloom & Pour org.
+Type declarations related to the Bloom & Pour org.
+
+Loosely acts as the scheme for the other projects.
